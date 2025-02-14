@@ -64,5 +64,5 @@ app.get('*', (req, res) => {
   
 
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    console.log(`Server running at https://simple-framework-8jm8lakqg-firstpioneers-projects.vercel.app/`);
 });
