@@ -7,7 +7,13 @@ const app = express();
 const port = 3005;
 
 // 配置跨域
-app.use(cors());
+//app.use(cors());
+app.use(cors({
+  origin: [
+    'https://firstpioneer.github.io', // GitHub Pages域名
+    'http://localhost:3005'           // 保留本地开发环境
+  ]
+}));
 app.use(express.json());
 
 const openai = new OpenAI({
