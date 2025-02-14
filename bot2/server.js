@@ -12,7 +12,7 @@ app.use(express.json());
 
 const openai = new OpenAI({
     baseURL: 'https://api.deepseek.com',
-    apiKey: process.env.DEEPSEEK_API_KEY // 建议使用环境变量存储密钥
+    apiKey: 'sk-4dfdaf65e15c449080c1838d1f16b3e3' // 建议使用环境变量存储密钥
 });
 
 
