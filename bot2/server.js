@@ -64,5 +64,5 @@ app.get('*', (req, res) => {
   
 
 app.listen(port, () => {
-    console.log(`Server running at https://simple-framework-8jm8lakqg-firstpioneers-projects.vercel.app/`);
+    console.log(`Server running at https://firstpioneer.github.io/simple-framework/bot2/public/index.html`);
 });
